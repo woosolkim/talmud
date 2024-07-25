@@ -72,13 +72,47 @@ poetry install
 
 ## Running the Project
 
-To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
+To use the Talmud AI-powered text analysis and response system, run the following command from the root folder of your project:
+
+#### 1. As a command-line argument
+```bash
+poetry run talmud [analysis|improve|rebuttal|sustain] [--text "Your text here"]
+```
+
+#### 2. Through interactive input
 
 ```bash
 poetry run talmud [analysis|improve|rebuttal|sustain]
 ```
+When prompted, enter your text. For multi-line input, press Enter for a new line.
+When finished, press Ctrl+D (Unix) or Ctrl+Z (Windows) followed by Enter.
 
-This command initializes the talmud Crew, assembling the agents and assigning them tasks as defined in your configuration.
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
+**Available Modes**
+* analysis: Performs a detailed emotional and content analysis of the given text.
+* improve: Enhances the quality and effectiveness of the given text.
+* rebuttal: Generates a logical and persuasive rebuttal to the given text.
+* sustain: Creates a response that sustains the conversation about the given text.
+
+
+## Examples
+
+#### 1. Analyzing text
+```bash
+poetry run talmud analysis --text "AI has the potential to revolutionize many industries, but it also poses significant ethical challenges that need to be addressed."
+```
+#### 2. Improving text
+```bash
+poetry run talmud improve --text "AI good but problems too."
+```
+#### 3. Generating a rebuttal
+```bash
+poetry run talmud rebuttal --text "Social media has only negative effects on society."
+```
+#### 4. Sustaining a conversation
+```bash
+poetry run talmud sustain --text "I believe climate change is the most pressing issue of our time."
+```
+
+
 
