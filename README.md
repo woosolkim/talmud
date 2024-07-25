@@ -1,6 +1,43 @@
 # Talmud Crew
 
-Welcome to the Talmud Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+"Talmud" is a revolutionary AI-powered conversation analysis and response system designed to help you win every discussion. Like the Jewish Talmud, the system seeks deep analysis and logical thinking, leveraging modern technology to give users an edge in any conversational situation.
+
+### Key features:
+* Emotion Analysis (Emotion Analyst)
+Deeply analyzes the emotional content of typed text.
+Multilingual support provides accurate sentiment analysis regardless of language.
+
+* Rebuttal generation (Rebuttal Writer)
+Generates a logical and convincing rebuttal to a given text.
+Increase the credibility of your rebuttal by searching the web for relevant evidence.
+
+
+* Text Improver
+Analyzes the original text and improves it into a clearer, more effective version.
+Takes context into account to enhance emotional impact and logical structure.
+
+
+* Conversation Sustainer
+Continues the conversation naturally based on the given text.
+Empathizes with the other person's feelings and invites deeper discussion.
+
+
+
+* Technical features:
+Multi-agent system utilizing the CrewAI framework
+Advanced text analytics with natural language processing and machine learning technology
+Global availability with multilingual support
+Real-time web search for up-to-date information
+
+
+* Use case
+Support academic discussions and paper writing
+Strategize business negotiations
+Analyzing and responding to political discourse
+Prepare legal arguments
+Improve marketing messages and optimize customer response
+
+More than just a conversational tool, "Talmud" is a partner that amplifies your intellectual power. It helps you gain an edge in every conversation and debate through in-depth analysis, logical thinking, and effective communication. In today's complex communication environment, "Talmud" will be your powerful intellectual companion. 😅
 
 ## Installation
 
@@ -45,17 +82,3 @@ This command initializes the talmud Crew, assembling the agents and assigning th
 
 This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
 
-## Understanding Your Crew
-
-The talmud Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
-
-## Support
-
-For support, questions, or feedback regarding the Talmud Crew or crewAI.
-
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
-
-Let's create wonders together with the power and simplicity of crewAI.
