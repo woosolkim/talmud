@@ -10,6 +10,7 @@ crewai = { extras = ["tools"], version = "^0.41.1" }
 langdetect = "^1.0.9"
 textblob = "^0.18.0.post0"
 deepl = "^1.18.0"
+argparse = "^1.4.0"
 
 [tool.poetry.scripts]
 talmud = "talmud.main:run"
